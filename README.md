@@ -19,7 +19,7 @@ Let me demonstrate a basic protection usage:
 	
 Step #1 Download Simple-Anti-DDOS to your system.
 	
-	wget https://github.com/jejo205713/
+	wget https://github.com/jejo205713/black-reaper/Simple-Anti-DDOS.sh
 	
 Step #2 Make it executable
 	chmod +x Simple-Anti-DDOS.sh
@@ -48,7 +48,7 @@ ping domain.com
 	
 Step #1 Download Simple-Anti-DDOS to your system.
 	
-	wget https://github.com/LasVegasCoder/Anti-DDOS-Script/blob/master/advanced-anti-ddos.sh
+	wget https://github.com/jejo205713/black-reaper/advanced-anti-ddos.sh
 	
 Step #2 Make it executable
 	chmod +x advanced-anti-ddos.sh
@@ -59,7 +59,7 @@ Step #3 Run it.
 	You're protected!	
 	
 	
-	Prince Server Guard script is a private script written not only protect server, but to also
+	JEJO Server Guard script is a private script written not only protect server, but to also
 	log each predefined attempt and labeled them such as SYN-FLOOD, SPAMMER, HACKER, SCRIPTER.
 	This way it bans SPAMMER, HACKER on auto by add their IP to the BLOCKED-DATA.
 	
