@@ -1,5 +1,4 @@
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/292a5c16020747c89409ab06af1f48d0)](https://app.codacy.com/manual/LasVegasCoder/Anti-DDOS-Script?utm_source=github.com&utm_medium=referral&utm_content=LasVegasCoder/Anti-DDOS-Script&utm_campaign=Badge_Grade_Dashboard)
 
 Firewall and Network Monitoring script handy for both beginners and advanced Network Engineer
 
@@ -20,7 +19,7 @@ Let me demonstrate a basic protection usage:
 	
 Step #1 Download Simple-Anti-DDOS to your system.
 	
-	wget https://raw.githubusercontent.com/LasVegasCoder/Anti-DDOS-Script/master/Simple-Anti-DDOS.sh
+	wget https://github.com/jejo205713/
 	
 Step #2 Make it executable
 	chmod +x Simple-Anti-DDOS.sh
@@ -67,15 +66,15 @@ Step #3 Run it.
 	It also update the BLOCKED-DATA by downloading BLACKLIST ip address from spamhaus and 
 	adds it to the local BLOCKED-DATA.  This way if any IP is black listed, it will be blocked on my system.
 	
-Step #1 Download Prince Guard Script to your system.
+Step #1 Download JEJO Guard Script to your system.
 	
-	wget https://github.com/LasVegasCoder/Anti-DDOS-Script/blob/master/prince-server-guard.ipt
+	wget https://github.com/jejo205713/black-reaper/jejo-server-guard.ipt
 	
 Step #2 Make it executable
-	chmod +x prince-server-guard.ipt
+	chmod +x jejo-server-guard.ipt
 	
 Step #3 Run it.
-	./prince-server-guard.ipt
+	./jejo-server-guard.ipt
 	
 	You're protected!
 
