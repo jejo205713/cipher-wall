@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+/*this is a basic html page for our testing server */
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOS and DDoS Information with Server Requests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #e0e0e0;
+        }
+        footer {
+            background: #111;
+            color: #999;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .hidden {
+            display: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+        th {
+            background: #222;
+        }
+        tr:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DOS and DDoS testing page by DEDSEC</h1>
+        <p>
+            <a href="#" onclick="showSection('info'); return false;">DOS and DDoS Info</a> | 
+            <a href="#" onclick="showSection('requests'); return false;">Server Requests</a>
+        </p>
+    </header>
+
+    <div class="container">
+        <!-- DOS and DDoS Info Section -->
+        <div id="info">
+            <section>
+                <h2>What is DOS?</h2>
+                <p>DOS stands for Disk Operating System. It is an operating system used in early personal computers. DOS is command-line based, meaning it does not have a graphical user interface. Users interact with DOS through text commands to manage files and execute programs.</p>
+            </section>
+
+            <section>
+                <h2>What is DDoS?</h2>
+                <p>DDoS stands for Distributed Denial of Service. It is a malicious attack where multiple systems flood a target with traffic, overwhelming its resources and causing service disruption. Unlike a DoS attack, which uses a single source, a DDoS attack involves many compromised systems.</p>
+            </section>
+        </div>
+
+        <!-- Server Requests Section -->
+        <div id="requests" class="hidden">
+            <section>
+                <h2>Request Logs</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Request Time</th>
+                            <th>IP Address</th>
+                            <th>Request Type</th>
+                            <th>Requested URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example static data; dynamic data would be inserted here -->
+                        <tr>
+                            <td>2024-08-22 12:00:00</td>
+                            <td>192.168.1.1</td>
+                            <td>GET</td>
+                            <td>/index.html</td>
+                        </tr>
+                        <tr>
+                            <td>2024-08-22 12:01:00</td>
+                            <td>192.168.1.2</td>
+                            <td>POST</td>
+                            <td>/submit-form</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 DOS and DDoS Info. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            document.getElementById('info').classList.add('hidden');
+            document.getElementById('requests').classList.add('hidden');
+            document.getElementById(sectionId).classList.remove('hidden');
+        }
+        
+        // Default view
+        showSection('info');
+    </script>
+</body>
+</html>
